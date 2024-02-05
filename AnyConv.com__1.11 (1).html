@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<div class ="image">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Healthy Lifestyle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="image">
+    <div class="ho anim">
+        <nav>
+            <img src="photo_2024-01-29_21-49-01.jpg"class="logo">
+            <ul>
+                <li><a href="#start1.html#MyID">Introduction</a></li>
+                <li><a href="#start2.html#MyID">Ways to practice</a></li>
+                <li><a href="#start3.html#MyID">Benefits</a></li>
+                <li><a href="#start4.html#MyID">Impact of Unhealthy Lifestyle</a></li>
+                <li><a href="#start6.html#MyID"> &#128221</a></li>
+            </ul>
+           
+
+        </nav>
+
+       
+         <div class="content">
+            <h1 class="anim">Healthy<br>Lifestyle</h1>
+            <p class="anim">Healthy Lifestyle is important to our life &#128512.</p>
+            <a href="#start.html" class="btn anim"> Start</a>
+            
+        </div>
+        <img src="GettyImages-515311245.jpg"class="feature-img anim">
+        
+    </div>
+    
+    <div class="back">
+    <div class="section">
+        
+        <section id="start1.html#MyID"><section id="start.html">
+            <img src="07-12-14-597_512.webp" class="webp"><h2>What is Healthy Lifestyle? </h2>
+            
+            <br>
+            <p>Healthy lifestyle is a lifestyle which includes activities and habits that encourage the development of total physical,mental, and spiritual fitness, and which reduces the risk of major illness. Healthy activities and habits include regular exercise; a balanced, nutritious diet and get enough sleep.<img src="11936490748b82a2231dc0bf01d0f242.gif" class="gif1"><br><br></p>
+        </section>
+        </section>
+        <br>
+    
+        <section id="start2.html#MyID">
+            <img src="07-12-14-597_512.webp" class="webp1"><h2>Ways to Practice Healthy Lifestyle</h2>
+            <p>1.Eat a healthy diet<br>We can choose healthier menu options when eating out.Besides,we can also make simple meal ourselves to keep healthy.<img src="well_nutrition-jumbo-v3.gif" class="gif1"><br><br>2.Exercise regularly<br>Exercise is good for body and mind.We can try to exercise at least three days a week for at least twenty to thirty minutes at a time.<img src="c1b9ab7396615778f2a0903d420cd10f.gif" class="gif1"><br><br>3.Drink lots of water<br>We can replace sugary drinks with water.Besides,we can carry a bottle of water everywhere you go so you stay hydrated and do not end up spending a fortune on water bottles every time.<img src="79c7ff9d622c8fae535a06898f0d6700.gif" class="gif"> <br><br></p>
+            
+        </section>
+        <br>
+    
+        <section id="start3.html#MyID">
+            <img src="07-12-14-597_512.webp" class="webp2"><h2>Benefits of Healthy Lifestyle</h2>
+            <p>1.Control weight<br>Eat a healthy diet help us avoid excess weight gain and maintain a healthy weight.<img src="giphy.gif" class="gif1"><br><br>2.Improve physical health<br>Regular exercise can boost your immune system and increase your energy levels.<img src="healthy.gif" class="gif1"><br><br>3.Prevent diseases and health issues<br>Healthy lifestyle help protect against cardiovascular disease, stroke and diabetes.<img src="7BZb.gif" class="gif1"><br><br></p>
+            
+        </section>
+
+        <br>
+        <section id="start4.html#MyID"> 
+            <img src="07-12-14-597_512.webp" class="webp3"><h2>Impact of Unhealthy Lifestyle</h2>
+            <p>1.Lifestyle illness<br>An unhealthy lifestyle will cause cancer,diabetes and cardiovascular disease.<img src="fc7bdf94839343.5e88c4718a20f.gif" class="gif2"><br><br>2. Lack of exercise and physical fitness<br>Our calorie burns will decrease and bones could be less strong.<img src="giphy (1).gif" class="gif2"><br><br>3.Kidney stone<br>A lower water intake worsens the likelihood of kidney stone formation.Low urine volume and increased urine supersaturation are effects of long-term dehydration.<img src="KIDNEY.gif" class="gif2"> <br><br></p>
+        </section>
+    </div>
+   
+    <div class="feedback">
+        <section id="start6.html#MyID">
+        <h2 class="anim">Feedback to provide information<br> about Health</h2>
+        <form id="feedbackForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <span id="nameError" class="error"></span>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <span id="emailError" class="error"></span>
+    
+            <label for="message">Feedback:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <span id="messageError" class="error"></span>
+    
+            <button type="button" onclick="validateForm()">Submit Feedback</button>
+        </form>
+        </section>
+        
+        <script>
+            function validateForm() {
+                
+                document.getElementById("nameError").textContent = "";
+                document.getElementById("emailError").textContent = "";
+                document.getElementById("messageError").textContent = "";
+    
+                
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message").value;
+    
+                
+                if (name.trim() === "") {
+                    document.getElementById("nameError").textContent = "Name is required";
+                    return;
+                }
+    
+                if (email.trim() === "") {
+                    document.getElementById("emailError").textContent = "Email is required";
+                    return;
+                }
+    
+                if (message.trim() === "") {
+                    document.getElementById("messageError").textContent = "Feedback is required";
+                    return;
+                }
+    
+                
+                alert("Form submitted successfully!");
+                
+            }
+        </script>
+    </div>
+
+         <div class="footer">
+         <footer>
+            &#127805 &#127813 &#129388 Health is wealth &#129365 &#129382 &#129476
+         </footer>
+        </div>
+    </div>
+   
+</body >
+</html>
