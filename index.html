@@ -71,53 +71,18 @@
         <form id="feedbackForm">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br>
-            <span id="nameError" class="error"></span>
-    
+          
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br>
-            <span id="emailError" class="error"></span>
-    
+         
             <label for="message">Feedback:</label><br>
             <textarea id="message" name="message" rows="4" required></textarea><br>
-            <span id="messageError" class="error"></span>
-    
+          
             <button type="button" onclick="validateForm()">Submit Feedback</button>
         </form>
         </section>
         
-        <script>
-            function validateForm() {
-                
-                document.getElementById("nameError").textContent = "";
-                document.getElementById("emailError").textContent = "";
-                document.getElementById("messageError").textContent = "";
     
-                
-                var name = document.getElementById("name").value;
-                var email = document.getElementById("email").value;
-                var message = document.getElementById("message").value;
-    
-                
-                if (name.trim() === "") {
-                    document.getElementById("nameError").textContent = "Name is required";
-                    return;
-                }
-    
-                if (email.trim() === "") {
-                    document.getElementById("emailError").textContent = "Email is required";
-                    return;
-                }
-    
-                if (message.trim() === "") {
-                    document.getElementById("messageError").textContent = "Feedback is required";
-                    return;
-                }
-    
-                
-                alert("Form submitted successfully!");
-                
-            }
-        </script>
     </div>
 
          <div class="footer">
