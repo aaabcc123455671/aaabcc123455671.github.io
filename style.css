@@ -17,8 +17,8 @@
 }
 
 .back:hover{
-    border-top-right-radius:20%;
-    border-top-left-radius:20%;
+    border-top-right-radius:10%;
+    border-top-left-radius:10%;
 }
 
 
