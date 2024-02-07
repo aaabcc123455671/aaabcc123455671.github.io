@@ -186,6 +186,31 @@ nav ul li a{
     width: 200px;
     border-radius: 10%;
 }
+.webp{
+    position: absolute;
+    margin-bottom: 8cm;
+    margin-left: 38%;
+    width: 100px;
+    
+}
+.webp1{
+    position: absolute;
+    margin-bottom: 8cm;
+    margin-left: 49%;
+    width: 100px;
+}
+.webp2{
+    position: absolute;
+    margin-bottom: 8cm;
+    margin-left: 41%;
+    width: 100px;
+}
+.webp3{
+    position: absolute;
+    margin-bottom: 8cm;
+    margin-left: 43%;
+    width: 100px;
+}
 
 .footer {
     background-image: linear-gradient(46deg,#57C399,#56ff72);
