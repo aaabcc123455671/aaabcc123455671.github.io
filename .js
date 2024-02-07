@@ -2,7 +2,7 @@ const form=document.getElementById('form')
 const name=document.getElementById('username')
 const email=document.getElementById('email')
 const feedback=document.querySelector('feedback')
-const btn=document.querySelector('.button')
+const btn=document.querySelector('button')
 
 form.addEventListener('submit',e=>{
     e.preventDefault();
