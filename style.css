@@ -1,12 +1,11 @@
 
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     overflow-x: hidden;
-    
-   
+    min-height:100vh;
 }
 .back{
     background-image: linear-gradient(90deg,#c2faa1,#dfdadac5);
