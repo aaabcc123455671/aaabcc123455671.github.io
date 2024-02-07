@@ -16,6 +16,11 @@
    
 }
 
+.back:hover{
+    border-top-right-radius:20%;
+    border-top-left-radius:20%;
+}
+
 
 .ho{
     width: 100%;
